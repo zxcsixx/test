@@ -1,9 +1,103 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
 body{
     font-family: 'DynaPuff', cursive;
-    background-color: black;
+    background-color: grey;
  }
 
- .text{
-    color: white;
+ .main-box{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 1000px;
  }
+
+
+.box{
+   
+}
+
+
+
+ .box-1{
+   color: red;
+   background-color: white;
+   font-style: italic;
+   font-family: 'Fredoka One', cursive;/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6029ce+0,7db9e8+100 */
+   background: #6029ce; /* Old browsers */
+   background: -moz-linear-gradient(top,  #6029ce 0%, #7db9e8 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #6029ce 0%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #6029ce 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6029ce', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+   background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+   
+   
+ }
+
+ .box-2{
+   color: white;
+ }
+
+
+/* CSS */
+.button-28 {
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 124px;
+  will-change: transform;
+}
+
+.button-28:disabled {
+  pointer-events: none;
+}
+
+.button-28:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button-28:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+
+
+
+
+
+ 
+
+
+
+ 
  
