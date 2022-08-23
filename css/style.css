@@ -5,6 +5,62 @@
    scroll-behavior: smooth;
 }
 
+a{
+  color: white;
+  text-decoration: none;
+}
+
+.header{
+  display: flex;
+  align-items:center;
+  justify-content: space-between;
+  padding: 25px;
+  padding-left: 0px;
+  padding-right: 0px;
+  z-index: 9;
+
+ 
+  font-family: 'Fredoka One', cursive;
+}
+
+
+
+
+.header__item{
+  transition: 0.6s;
+  border-radius: 20px;
+  padding: 5px 40px;
+  font-size: 20px;
+}
+
+
+.header__item:hover{
+  background: #000;
+  
+}
+
+
+.header__buttons{
+  display:flex;
+  font-size: 20px;
+  z-index: 99;
+}
+
+
+
+.headerlogo{
+  font-size: 20px;
+  font-weight:bold;
+  font-variant: small-caps;
+  -ms-user-select: none; 
+  -moz-user-select: none; 
+  -webkit-user-select: none; 
+   user-select: none;
+}
+
+
+
+
 body{
     font-family: 'DynaPuff', cursive;
     background-color: grey;
@@ -19,7 +75,7 @@ body{
 
 
 .box{
-   
+   margin: 70px;
 }
 
 
@@ -35,8 +91,8 @@ body{
    background: linear-gradient(to bottom,  #6029ce 0%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6029ce', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
    background-clip: text;
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
    
    
  }
@@ -45,52 +101,21 @@ body{
    color: white;
  }
 
+ .box-3{
+  background: aquamarine;
+  width: 500px;
+ }
 
-/* CSS */
-.button-28 {
-  appearance: none;
-  background-color: transparent;
-  border: 2px solid #1A1A1A;
-  border-radius: 15px;
-  box-sizing: border-box;
-  color: #3B3B3B;
-  cursor: pointer;
-  display: inline-block;
-  font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
-  font-size: 16px;
-  font-weight: 600;
-  line-height: normal;
-  margin: 0;
-  min-height: 60px;
-  min-width: 0;
-  outline: none;
-  padding: 16px 24px;
-  text-align: center;
-  text-decoration: none;
-  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  width: 124px;
-  will-change: transform;
+.video1{
+  position:absolute;
+  top: 0;
+  padding-top: 0;
+  padding-left: 0;
+
+  width: 100%;
+  height: 100%;
+  z-index: 8;
 }
-
-.button-28:disabled {
-  pointer-events: none;
-}
-
-.button-28:hover {
-  color: #fff;
-  background-color: #1A1A1A;
-  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
-  transform: translateY(-2px);
-}
-
-.button-28:active {
-  box-shadow: none;
-  transform: translateY(0);
-}
-
 
 
 
